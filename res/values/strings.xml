@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TestGPSActivity!</string>
+    <string name="app_name">TestGPS</string>
+    
+    <string name="btnStartGPS">Start GPS Submit</string>
+    <string name="btnStopGPS">Stop GPS Submit</string>
+    
+    <string name="lblDisplayName">Display Name</string>
+    <string name="txtDisplayName">ranger</string>
+    
+    <string name="lblURL">Thin Client URL</string>
+    <string name="txtURL">http://ranger.edh.aimain.aimetrix.com:8081/GPS/SubmitGPSCoordinates</string>
+
+</resources>
