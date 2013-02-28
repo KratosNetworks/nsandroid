@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Google Earth Example</title>
+    </head>
+
+    <body>
+
+        <div id="map3d" style="height:600px; width:750px;"></div>
+
+        <!-- Core Libraries -->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        
+        <!-- Page Library -->
+        <script type="text/javascript" src="js/index.js"></script>
+
+        <!-- Google Earth specific code -->
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+        <script type="text/javascript">
+        google.load("earth", "1");
+        google.setOnLoadCallback(function() {
+            GEMap.Log("Google Earth loaded, creating instance");
+            GEMap.Ready();
+        });
+        </script>
+
+    </body>
+</html>
