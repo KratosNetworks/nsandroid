@@ -1,7 +1,7 @@
 NSAndroid
 =========
 
-An experimental Android client for Neuralstar.
+An experimental Android client and data collection agent for Neuralstar.
 
 Right now, this is intended to use the phone's GPS capability to record position data and submit that data to a Neuralstar object. That object could then be rendered on a map.
 

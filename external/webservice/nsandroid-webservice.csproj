@@ -89,10 +89,7 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="index.htm" />
-    <Content Include="NSBinaries\BusinessObject.dll" />
-    <Content Include="NSBinaries\Common.dll" />
     <Content Include="NSBinaries\Newtonsoft.Json.dll" />
-    <Content Include="NSBinaries\Nsda2.dll" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup />
